@@ -1,0 +1,190 @@
+body {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.imagem-logo {
+	width: 110px;
+	height: 100px;
+}
+
+nav {
+	height: 90px !important;
+	background-color: #ef9a9a !important;
+}
+
+.btn-color {
+	background-color: #e57373;
+}
+
+.container1 {
+	width: 1400px;
+	height: 140px;
+	margin: 0 auto;
+}
+
+.main {
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	padding: 80px 0;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.main .titulo-principal {
+	font-size: 100px;
+}
+
+.btn-color {
+	background-color: #483D8B;
+}
+
+.paragrafo-main {
+	margin: 0 0 1% 0;
+}
+
+.services {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.sobre-nos {
+	background-color: #ffebee;
+	padding: 50px;
+}
+
+.sobre-nos #titulo-sobre {
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+
+.carousel {
+	height: 400px !important;
+}
+
+.contato {
+	padding: 50px;
+}
+
+footer {
+	background: #ef9a9a;
+	padding: 15px;
+	margin: 0;
+	color: #fff;
+}
+
+.menu-rodape {
+	margin-top: 30px;
+}
+
+.links-menu-rodape, .logo-rodape {
+	color: #fff;
+}
+
+.copyright {
+	text-align: center;
+	background-color: #e57373;
+	padding: 5px;
+	color: #fff;
+}
+
+/* vitrine de livros */
+.center {
+	text-align: center;
+}
+
+.secao-card {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.imagem-card {
+	width: 200px;
+	height: 300px;
+	transition: 1s;
+}
+
+.div-card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.prod {
+	width: 300px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 20px;
+	padding: 10px;
+	transition: 0.5s;
+}
+
+.prod:hover {
+	box-shadow: 1px 1px 1px 1px rgb(168, 167, 167);
+}
+
+.prod button {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+.container-form {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.titulo-cadastro-material {
+	margin-top: 100px;
+}
+
+.form-cadastro {
+	margin-bottom: 200px;
+}
+
+.titulo-centralizado {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.container-form {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.formulario-de-login {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.btn-topo-pagina {
+	text-align: end;
+}
+
+.icone-rodape {
+	margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+	.elemento-pai {
+		display: flex;
+		flex-direction: column;
+	}
+	.endereco, .mapa {
+		margin: 0 !important;
+		width: 100% !important;
+	}
+	.rodape {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+	.menu-rodape, .caixa-de-icones, .icone-rodape {
+		margin: 0 auto !important;
+	}
+}
